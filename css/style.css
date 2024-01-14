@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+:root {
+    --pink: #FF52AF;
+    --pink2: #9F53FF;
+    --purple: #14092A;
+    --white: #D1C0F1;
+    --gray: #A094B8;
+}
+
+body {
+    background-color: #14092A;
+}
+
+main {
+    max-width: 370px;
+    margin: 30px auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    background: linear-gradient(73deg, #FF52AF, #9F53FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 70px;
+    gap: 25px;
+}
+
+.text h1 {
+    font-weight: 400;
+    font-size: 50px;
+    color: #D1C0F1;
+}
+
+.text div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.yoga {
+    font-weight: 400;
+    padding: 5px 12px;
+    display: flex;
+    text-align: center;
+    border-radius: 8px;
+    background-image: linear-gradient(73deg, #FF52AF, #9F53FF);
+    transform: rotate(10deg);
+}
+
+.loading svg {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.p p {
+    color: var(--gray);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 17px;
+}
+
+.p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button div {
+    display: flex;
+    align-items: end;
+}
+
+.button .circlesvg {
+    position: absolute;
+    right: 100px;
+    top: 430px;
+}
+
+.get {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 64px;
+    border: none;
+    background-image: linear-gradient(73deg, #FF52AF, #9F53FF);
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.Yc3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    gap: 10px;
+}
+
+.number {
+    font-size: 28px;
+}
+
+.yogaclass {
+    font-size: 13px;
+}
+
+.Participants {
+    font-size: 13px;
+}
+
+.p4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    gap: 10px;
+}
+
+.nt {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.img1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.img1 img {
+    width: 350px;
+    height: 487.84px;
+}
+
+ul {
+    display: none;
+}
+
+@media only screen and (min-width:900px) {
+    main {
+        max-width: 900px;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .p {
+        width: 300px;
+    }
+
+    .p p {
+        text-align: start;
+        font-size: 11px;
+        margin-top: px;
+    }
+
+    .loading {
+        align-items: start;
+        margin-top: 70px;
+        gap: 25px;
+    }
+
+    .button {
+        align-items: start;
+    }
+
+    .nt {
+        justify-content: start;
+    }
+
+    .text h1 {
+        font-size: 67px;
+    }
+
+    .loading svg {
+        position: absolute;
+        left: 350px;
+        top: 35px;
+    }
+
+    .text {
+        align-items: start;
+        margin-top: -70px;
+    }
+
+    .img1 img {
+        width: 500px;
+        height: 650px;
+    }
+
+    header .menu {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        color: var(--white);
+
+    }
+
+    header div {
+        gap: 50px;
+    }
+
+    ul .home {
+        background: linear-gradient(73deg, #FF52AF, #9F53FF);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .get {
+        width: 180px;
+        height: 50px;
+    }
+
+    .button .circlesvg {
+        position: absolute;
+        right: 960px;
+        top: 430px;
+    }
+}
